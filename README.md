@@ -90,18 +90,19 @@ The system ensures all actions are logged and reflected in the backend database 
     quantity INT NOT NULL
 );
 
-###📁 Directory Structure
-Project_Root/
-├── lib/
-│   └── mysql-connector-java-x.x.x.jar
-├── src/
-│   └── medicine/
-│       ├── customer.java
-│       ├── forget.java
-│       ├── seller.java
-│       ├── sign_in.java
-│       └── sign_up.java
-
+  ```dir
+   ###📁 Directory Structure
+    Project_Root/
+   ├── lib/
+   │   └── mysql-connector-java-x.x.x.jar
+   ├── src/
+   │   └── medicine/
+   │       ├── customer.java
+   │       ├── forget.java
+   │       ├── seller.java
+   │       ├── sign_in.java
+   │       └── sign_up.java
+```
 ###🚀 Getting Started
 ✅ Prerequisites
 JDK 17 or higher
@@ -109,11 +110,7 @@ JDK 17 or higher
 MySQL Server
 
 MySQL JDBC Connector
-# 💊 Medicine Inventory Control System
 
-This project is a complete implementation of an inventory control system for medicine sellers and buyers. It demonstrates the use of Java, Swing GUI, MySQL, and JDBC in a practical desktop application.
-
----
 ###🧪 Sample Use Cases
 ✅ Successful Sign Up: "SIGNED UP SUCCESSFULLY"
 
