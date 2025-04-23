@@ -70,20 +70,21 @@ The system ensures all actions are logged and reflected in the backend database 
        age VARCHAR(10) NOT NULL
    );
 
-## 🧬 Database Tables (continued)
+2. **stock**
+   - Tracks medicine inventory per seller
 
-### `stock`
-
-Tracks medicine quantity per seller.
-
-```sql
-CREATE TABLE stock (
+   ```sql
+   CREATE TABLE stock (
     user_id VARCHAR(50) NOT NULL,
     med_name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL
 );
-### 'transaction'
-CREATE TABLE transaction (
+
+3. **transaction**
+   - Records all order transactions
+
+   ```sql
+   CREATE TABLE transaction (
     user_id VARCHAR(50) NOT NULL,
     med_name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL
